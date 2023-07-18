@@ -6,10 +6,10 @@ public class Guessing_game {
         Random random = new Random();
         int minRange = 1;
         int maxRange = 100;
-        int maxAttempts = 7;
+        int maxAttempts = 5;
         int score = 0;
 
-        System.out.println("Welcome to the Guessing Game!");
+        System.out.println("Play the Guessing Game!");
 
         boolean playagain = true;
         while (playagain) {
